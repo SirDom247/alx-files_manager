@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 import express from 'express';
 import controllerRouting from './routes/index';
 

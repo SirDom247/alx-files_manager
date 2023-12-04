@@ -23,7 +23,7 @@ function controllerRouting(app) {
   // User Controller
 
   // should create a new user in DB
-  router.post('/users', (req, res) => {
+  /*router.post('/users', (req, res) => {
     UsersController.postNew(req, res);
   });
 
@@ -76,6 +76,7 @@ function controllerRouting(app) {
   router.get('/files/:id/data', (req, res) => {
     FilesController.getFile(req, res);
   });
+*/
 }
 
 export default controllerRouting;
